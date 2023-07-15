@@ -73,9 +73,9 @@ const Header = () => {
     return (
         <header className={`header ${mobileMenu ? "mobileView" : ""} ${show}`}>
             <ContentWrapper>
-                <div className="logo" onClick={() => navigate("/")}>
+                {/* <div className="logo" onClick={() => navigate("/")}>
                     <img src={logo} alt="" />
-                </div>
+                </div> */}
                 <ul className="menuItems">
                     <li
                         className="menuItem"
@@ -109,7 +109,7 @@ const Header = () => {
                         <div className="searchInput">
                             <input
                                 type="text"
-                                placeholder="Search for a movie or tv show...."
+                                placeholder="Search for your movie...."
                                 onChange={(e) => setQuery(e.target.value)}
                                 onKeyUp={searchQueryHandler}
                             />

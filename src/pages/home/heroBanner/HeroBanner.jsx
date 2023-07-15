@@ -39,15 +39,14 @@ const HeroBanner = () => {
             <div className="opacity-layer"></div>
             <ContentWrapper>
                 <div className="heroBannerContent">
-                    <span className="title">Welcome.</span>
+                    <span className="title">HEY THERE!!.</span>
                     <span className="subTitle">
-                        Millions of movies, TV shows and people to discover.
-                        Explore now.
+                        Your one stop location for movies.
                     </span>
                     <div className="searchInput">
                         <input
                             type="text"
-                            placeholder="Search for a movie or tv show...."
+                            placeholder="Whats on your mind..."
                             onChange={(e) => setQuery(e.target.value)}
                             onKeyUp={searchQueryHandler}
                         />
